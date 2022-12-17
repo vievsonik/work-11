@@ -1,0 +1,92 @@
+@media (max-width:1131px){
+    .iframe-class{
+        width: 700px;
+        
+    }
+    .first-section-width{
+        display: flex;
+        justify-content: center;
+        
+    }
+    .h1-div{
+        padding-left: 11px;
+    }
+    .contact,.main-title{
+        padding-left: 11px;
+    }
+
+}
+@media (max-width:1114px){
+    .third-section-width{
+        margin-left:11px ;
+    }
+    
+    .text-area{
+       width: 352px ;
+      
+    }
+    .second-conteiner{ 
+        width: 100%;
+        justify-content: center; 
+    }
+    
+    
+    .right-block{
+        max-width: 200px; 
+        width: 100%;
+        display: flex;
+        margin-left: 14px;
+        
+    }
+} 
+@media (max-width:1083px){
+    .image-width-third{
+         width: 330px; 
+       
+    }
+    .position-images-div{
+        display: flex;
+        justify-content: center;
+        margin-top: 7px;
+    }
+    .positon-image{
+        display: none;
+    }
+
+}  
+    
+@media (max-width:1024px) {
+    .nav-block{
+       display: none;
+      
+    }
+    .burger-div{
+        display: flex;
+    }
+    .fa-bars-progress{
+        color: #fff;
+        font-size: 25px;
+        margin-right: 14px;
+        
+    }
+    
+    
+}
+@media (max-width:729px){
+    .iframe-class{
+        width: 587px;
+        
+    }
+    .image-width-third{
+        width: 250px; 
+      
+   }
+
+}
+@media (max-width:611px){
+    .iframe-class{
+        width: 487px;
+        
+    }
+}
+
