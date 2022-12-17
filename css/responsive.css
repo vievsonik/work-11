@@ -66,6 +66,9 @@
     .burger-div{
         display: flex;
     }
+    .fa-bars-progress:hover{
+        color: #5863F8;
+    }
     .fa-bars-progress{
         color: #fff;
         font-size: 25px;
