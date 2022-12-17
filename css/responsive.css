@@ -14,11 +14,14 @@
     .contact,.main-title{
         padding-left: 11px;
     }
+    .footer-conteiner{
+        padding-left: 14px;
+    }
 
 }
 @media (max-width:1114px){
     .third-section-width{
-        margin-left:11px ;
+        padding-left:11px ;
     }
     
     .text-area{
@@ -81,12 +84,121 @@
         width: 250px; 
       
    }
+   .footer-conteiner{
+    flex-wrap: wrap;
+   }
+   .background-black{
+    height: 400px;
 
+   }
+
+}
+@media (max-width:643px){
+    .background-black{
+        height: 650px;
+    
+    }
+    .copyrights1{
+        padding-right: 9px;
+    }
 }
 @media (max-width:611px){
     .iframe-class{
         width: 487px;
         
     }
+    .copyright-conteiner{
+        flex-wrap: wrap;
+
+    }
+    .position-copyright{
+        padding-top: 11px;
+    }
 }
+@media (max-width:576px){
+    .second-conteiner{
+        flex-direction: column;  
+    }
+    .right-block{ 
+        margin-left: 11px;
+    }
+    .left-block{
+        margin-left: 11px;
+    }
+    .iframe-class{
+        width: 390px;
+        height: 230px;
+    }
+    .third-block-images{
+        align-items: baseline;
+    }
+    .position-padding{
+        padding-top: 7px;
+    }
+}
+@media (max-width:517px){
+    .third-block-images{
+        justify-content: center ;  
+    }
+}
+
+@media (max-width:480px){
+    .footer-copyrights,.footer-copyrights2,.span-copyright,
+    .link-footer{
+        font-size: 11px;
+        
+    }
+}
+@media (max-width:454px){
+    .third-title-color:nth-child(2){
+        font-size: 25px;
+    }
+    .third-title-color:nth-child(3){
+        font-size: 25px;
+    }
+}
+@media (max-width:417px){
+    .iframe-class{
+        width: 310px;
+        
+    }
+    .footer-copyrights,.footer-copyrights2,.span-copyright,
+    .link-footer{
+        font-size: 8px;
+        
+    }
+}
+@media (max-width:385px){
+    .text-area{
+        width: 290px ;
+       
+    }
+    .right-block-footer{
+        margin-top: 14px;
+    }
+    .a-li-clas:nth-child(3){
+        color: red;
+    }
+    .info-box{
+        width: 33px;
+        height: 33px;
+    }
+    .a-h3margin{
+        font-size: 14px;
+    }
+    .background-black{
+        height: 750px;
+    
+    }
+    
+}
+@media (max-width:334px){
+    .iframe-class{
+     width: 299px;
+     height: 230px;
+    }
+}
+
+
+
 

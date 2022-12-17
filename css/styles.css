@@ -26,8 +26,10 @@
    color: var(--main-color);
 }
 .burger-div{
-    display: none ; 
+    /* display: none ;  */
 }
+
+
 
 /* roots */
 :root{
@@ -231,7 +233,7 @@
    
 }
 .info-box:nth-child(1){
-     margin-left:25px ; 
+    margin-left:25px ; 
 
 }
 .info-box:nth-child(3){
